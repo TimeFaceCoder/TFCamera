@@ -1,0 +1,21 @@
+PODS:
+  - AsyncDisplayKit (1.2.2):
+    - AsyncDisplayKit/ASDealloc2MainObject (= 1.2.2)
+  - AsyncDisplayKit/ASDealloc2MainObject (1.2.2)
+  - GPUImage (0.1.7)
+  - Masonry (0.6.2)
+  - pop (1.0.7)
+
+DEPENDENCIES:
+  - AsyncDisplayKit
+  - GPUImage
+  - Masonry
+  - pop
+
+SPEC CHECKSUMS:
+  AsyncDisplayKit: 6b943f45844558fde1d82468820dbefcc77c7271
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+
+COCOAPODS: 0.37.2

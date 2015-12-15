@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1A1EBCE08852B1900BA0D5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 877D05BE948EF70D34CE511F /* libPods.a */; };
+		B025225C1B5E2F7F004A1BE3 /* PBJGLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = B02522521B5E2F7F004A1BE3 /* PBJGLProgram.m */; };
+		B025225D1B5E2F7F004A1BE3 /* PBJMediaWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B02522541B5E2F7F004A1BE3 /* PBJMediaWriter.m */; };
+		B025225E1B5E2F7F004A1BE3 /* PBJVision.m in Sources */ = {isa = PBXBuildFile; fileRef = B02522561B5E2F7F004A1BE3 /* PBJVision.m */; };
+		B025225F1B5E2F7F004A1BE3 /* PBJVisionUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B02522581B5E2F7F004A1BE3 /* PBJVisionUtilities.m */; };
+		B02522601B5E2F7F004A1BE3 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B025225A1B5E2F7F004A1BE3 /* Shader.fsh */; };
+		B02522611B5E2F7F004A1BE3 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B025225B1B5E2F7F004A1BE3 /* Shader.vsh */; };
+		B04831261B5884E50007F46E /* TFCameraSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = B04831251B5884E50007F46E /* TFCameraSlideView.m */; };
+		B04831291B58858B0007F46E /* TFCameraSlideUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = B04831281B58858B0007F46E /* TFCameraSlideUpView.m */; };
+		B048312C1B58859C0007F46E /* TFCameraSlideDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = B048312B1B58859C0007F46E /* TFCameraSlideDownView.m */; };
+		B048312F1B588BE00007F46E /* TFCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B048312E1B588BE00007F46E /* TFCameraViewController.m */; };
+		B04831321B588C120007F46E /* TFCameraNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04831311B588C120007F46E /* TFCameraNavigationController.m */; };
+		B04831351B588ED60007F46E /* TFPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04831341B588ED60007F46E /* TFPhotoViewController.m */; };
+		B04831381B58905B0007F46E /* TFCameraFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B04831371B58905B0007F46E /* TFCameraFilterView.m */; };
+		B048313B1B5890C80007F46E /* UIImage+CameraFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = B048313A1B5890C80007F46E /* UIImage+CameraFilters.m */; };
+		B0618F761B589B75000E6C6A /* TFPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0618F731B589B75000E6C6A /* TFPhotoViewController.xib */; };
+		B098D8C21B6776AE00839499 /* TFMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B098D8C11B6776AE00839499 /* TFMediaViewController.m */; };
+		B098D8C51B6776DD00839499 /* TFMediaFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B098D8C41B6776DD00839499 /* TFMediaFileModel.m */; };
+		B0A221721B6B4DEB0029127D /* PBJVision+TFCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A221711B6B4DEB0029127D /* PBJVision+TFCamera.m */; };
+		B0C205891B5C9FD100010D0E /* UIButton+TFCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C205881B5C9FD100010D0E /* UIButton+TFCameraButton.m */; };
+		B0D7E5AB1B5756F8007E9BE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5AA1B5756F8007E9BE8 /* main.m */; };
+		B0D7E5AE1B5756F8007E9BE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5AD1B5756F8007E9BE8 /* AppDelegate.m */; };
+		B0D7E5B11B5756F8007E9BE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5B01B5756F8007E9BE8 /* ViewController.m */; };
+		B0D7E5B41B5756F8007E9BE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D7E5B21B5756F8007E9BE8 /* Main.storyboard */; };
+		B0D7E5B61B5756F8007E9BE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D7E5B51B5756F8007E9BE8 /* Assets.xcassets */; };
+		B0D7E5B91B5756F8007E9BE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D7E5B71B5756F8007E9BE8 /* LaunchScreen.storyboard */; };
+		B0D7E5C41B5756F9007E9BE8 /* TFCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5C31B5756F9007E9BE8 /* TFCameraTests.m */; };
+		B0D7E5CF1B5756F9007E9BE8 /* TFCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5CE1B5756F9007E9BE8 /* TFCameraUITests.m */; };
+		B0D7E5E61B579991007E9BE8 /* TFAssetImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5E51B579991007E9BE8 /* TFAssetImageFile.m */; };
+		B0D7E5E81B579A32007E9BE8 /* TFCamera.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D7E5E71B579A32007E9BE8 /* TFCamera.xcassets */; };
+		B0D7E5EB1B579E73007E9BE8 /* TFCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5EA1B579E73007E9BE8 /* TFCamera.m */; };
+		B0D7E5EE1B579FE8007E9BE8 /* TFCameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5ED1B579FE8007E9BE8 /* TFCameraGridView.m */; };
+		B0D7E5F11B57A0BD007E9BE8 /* TFCameraColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5F01B57A0BD007E9BE8 /* TFCameraColor.m */; };
+		B0D7E5F41B57A6E8007E9BE8 /* TFCameraFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5F31B57A6E8007E9BE8 /* TFCameraFocusView.m */; };
+		B0D7E5F71B57A755007E9BE8 /* TFCameraFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5F61B57A755007E9BE8 /* TFCameraFlash.m */; };
+		B0D7E5FA1B57A7CA007E9BE8 /* TFTintedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5F91B57A7CA007E9BE8 /* TFTintedButton.m */; };
+		B0D7E5FD1B57A905007E9BE8 /* TFCameraFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5FC1B57A905007E9BE8 /* TFCameraFocus.m */; };
+		B0D7E6001B57A9DD007E9BE8 /* TFCameraShot.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E5FF1B57A9DD007E9BE8 /* TFCameraShot.m */; };
+		B0D7E6031B57AEE0007E9BE8 /* TFCameraToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E6021B57AEE0007E9BE8 /* TFCameraToggle.m */; };
+		B0D7E6061B57B076007E9BE8 /* TFAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E6051B57B076007E9BE8 /* TFAlbum.m */; };
+		B0D7E6091B57B0C6007E9BE8 /* TFAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7E6081B57B0C6007E9BE8 /* TFAssetsLibrary.m */; };
+		B0FEB5571B5FA56F00DD72B2 /* TFCameraRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FEB5561B5FA56F00DD72B2 /* TFCameraRecordProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0D7E5C01B5756F9007E9BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D7E59E1B5756F8007E9BE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D7E5A51B5756F8007E9BE8;
+			remoteInfo = TFCamera;
+		};
+		B0D7E5CB1B5756F9007E9BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D7E59E1B5756F8007E9BE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D7E5A51B5756F8007E9BE8;
+			remoteInfo = TFCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		877D05BE948EF70D34CE511F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4CBA1FC3987D448F83F867 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B02522511B5E2F7F004A1BE3 /* PBJGLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJGLProgram.h; sourceTree = "<group>"; };
+		B02522521B5E2F7F004A1BE3 /* PBJGLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJGLProgram.m; sourceTree = "<group>"; };
+		B02522531B5E2F7F004A1BE3 /* PBJMediaWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJMediaWriter.h; sourceTree = "<group>"; };
+		B02522541B5E2F7F004A1BE3 /* PBJMediaWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJMediaWriter.m; sourceTree = "<group>"; };
+		B02522551B5E2F7F004A1BE3 /* PBJVision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJVision.h; sourceTree = "<group>"; };
+		B02522561B5E2F7F004A1BE3 /* PBJVision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJVision.m; sourceTree = "<group>"; };
+		B02522571B5E2F7F004A1BE3 /* PBJVisionUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJVisionUtilities.h; sourceTree = "<group>"; };
+		B02522581B5E2F7F004A1BE3 /* PBJVisionUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJVisionUtilities.m; sourceTree = "<group>"; };
+		B025225A1B5E2F7F004A1BE3 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		B025225B1B5E2F7F004A1BE3 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		B04831241B5884E50007F46E /* TFCameraSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraSlideView.h; sourceTree = "<group>"; };
+		B04831251B5884E50007F46E /* TFCameraSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraSlideView.m; sourceTree = "<group>"; };
+		B04831271B58858B0007F46E /* TFCameraSlideUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraSlideUpView.h; sourceTree = "<group>"; };
+		B04831281B58858B0007F46E /* TFCameraSlideUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraSlideUpView.m; sourceTree = "<group>"; };
+		B048312A1B58859C0007F46E /* TFCameraSlideDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraSlideDownView.h; sourceTree = "<group>"; };
+		B048312B1B58859C0007F46E /* TFCameraSlideDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraSlideDownView.m; sourceTree = "<group>"; };
+		B048312D1B588BE00007F46E /* TFCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraViewController.h; sourceTree = "<group>"; };
+		B048312E1B588BE00007F46E /* TFCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraViewController.m; sourceTree = "<group>"; };
+		B04831301B588C120007F46E /* TFCameraNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraNavigationController.h; sourceTree = "<group>"; };
+		B04831311B588C120007F46E /* TFCameraNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraNavigationController.m; sourceTree = "<group>"; };
+		B04831331B588ED60007F46E /* TFPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFPhotoViewController.h; sourceTree = "<group>"; };
+		B04831341B588ED60007F46E /* TFPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFPhotoViewController.m; sourceTree = "<group>"; };
+		B04831361B58905B0007F46E /* TFCameraFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraFilterView.h; sourceTree = "<group>"; };
+		B04831371B58905B0007F46E /* TFCameraFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraFilterView.m; sourceTree = "<group>"; };
+		B04831391B5890C80007F46E /* UIImage+CameraFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CameraFilters.h"; sourceTree = "<group>"; };
+		B048313A1B5890C80007F46E /* UIImage+CameraFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CameraFilters.m"; sourceTree = "<group>"; };
+		B0618F731B589B75000E6C6A /* TFPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFPhotoViewController.xib; sourceTree = "<group>"; };
+		B098D8C01B6776AE00839499 /* TFMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFMediaViewController.h; sourceTree = "<group>"; };
+		B098D8C11B6776AE00839499 /* TFMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFMediaViewController.m; sourceTree = "<group>"; };
+		B098D8C31B6776DD00839499 /* TFMediaFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFMediaFileModel.h; sourceTree = "<group>"; };
+		B098D8C41B6776DD00839499 /* TFMediaFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFMediaFileModel.m; sourceTree = "<group>"; };
+		B0A221541B69CA710029127D /* TFCameraProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFCameraProtocol.h; path = Tools/TFCameraProtocol.h; sourceTree = "<group>"; };
+		B0A221701B6B4DEB0029127D /* PBJVision+TFCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PBJVision+TFCamera.h"; sourceTree = "<group>"; };
+		B0A221711B6B4DEB0029127D /* PBJVision+TFCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PBJVision+TFCamera.m"; sourceTree = "<group>"; };
+		B0C205871B5C9FD100010D0E /* UIButton+TFCameraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TFCameraButton.h"; sourceTree = "<group>"; };
+		B0C205881B5C9FD100010D0E /* UIButton+TFCameraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TFCameraButton.m"; sourceTree = "<group>"; };
+		B0D7E5A61B5756F8007E9BE8 /* TFCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D7E5AA1B5756F8007E9BE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0D7E5AC1B5756F8007E9BE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0D7E5AD1B5756F8007E9BE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0D7E5AF1B5756F8007E9BE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0D7E5B01B5756F8007E9BE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0D7E5B31B5756F8007E9BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0D7E5B51B5756F8007E9BE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0D7E5B81B5756F8007E9BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0D7E5BA1B5756F8007E9BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D7E5BF1B5756F9007E9BE8 /* TFCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D7E5C31B5756F9007E9BE8 /* TFCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCameraTests.m; sourceTree = "<group>"; };
+		B0D7E5C51B5756F9007E9BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D7E5CA1B5756F9007E9BE8 /* TFCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D7E5CE1B5756F9007E9BE8 /* TFCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCameraUITests.m; sourceTree = "<group>"; };
+		B0D7E5D01B5756F9007E9BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D7E5E41B579991007E9BE8 /* TFAssetImageFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFAssetImageFile.h; sourceTree = "<group>"; };
+		B0D7E5E51B579991007E9BE8 /* TFAssetImageFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFAssetImageFile.m; sourceTree = "<group>"; };
+		B0D7E5E71B579A32007E9BE8 /* TFCamera.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TFCamera.xcassets; sourceTree = "<group>"; };
+		B0D7E5E91B579E73007E9BE8 /* TFCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCamera.h; sourceTree = "<group>"; };
+		B0D7E5EA1B579E73007E9BE8 /* TFCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCamera.m; sourceTree = "<group>"; };
+		B0D7E5EC1B579FE8007E9BE8 /* TFCameraGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraGridView.h; sourceTree = "<group>"; };
+		B0D7E5ED1B579FE8007E9BE8 /* TFCameraGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraGridView.m; sourceTree = "<group>"; };
+		B0D7E5EF1B57A0BD007E9BE8 /* TFCameraColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraColor.h; sourceTree = "<group>"; };
+		B0D7E5F01B57A0BD007E9BE8 /* TFCameraColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraColor.m; sourceTree = "<group>"; };
+		B0D7E5F21B57A6E8007E9BE8 /* TFCameraFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraFocusView.h; sourceTree = "<group>"; };
+		B0D7E5F31B57A6E8007E9BE8 /* TFCameraFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraFocusView.m; sourceTree = "<group>"; };
+		B0D7E5F51B57A755007E9BE8 /* TFCameraFlash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraFlash.h; sourceTree = "<group>"; };
+		B0D7E5F61B57A755007E9BE8 /* TFCameraFlash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraFlash.m; sourceTree = "<group>"; };
+		B0D7E5F81B57A7CA007E9BE8 /* TFTintedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTintedButton.h; sourceTree = "<group>"; };
+		B0D7E5F91B57A7CA007E9BE8 /* TFTintedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTintedButton.m; sourceTree = "<group>"; };
+		B0D7E5FB1B57A905007E9BE8 /* TFCameraFocus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraFocus.h; sourceTree = "<group>"; };
+		B0D7E5FC1B57A905007E9BE8 /* TFCameraFocus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraFocus.m; sourceTree = "<group>"; };
+		B0D7E5FE1B57A9DD007E9BE8 /* TFCameraShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraShot.h; sourceTree = "<group>"; };
+		B0D7E5FF1B57A9DD007E9BE8 /* TFCameraShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraShot.m; sourceTree = "<group>"; };
+		B0D7E6011B57AEE0007E9BE8 /* TFCameraToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraToggle.h; sourceTree = "<group>"; };
+		B0D7E6021B57AEE0007E9BE8 /* TFCameraToggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraToggle.m; sourceTree = "<group>"; };
+		B0D7E6041B57B076007E9BE8 /* TFAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFAlbum.h; sourceTree = "<group>"; };
+		B0D7E6051B57B076007E9BE8 /* TFAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFAlbum.m; sourceTree = "<group>"; };
+		B0D7E6071B57B0C6007E9BE8 /* TFAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFAssetsLibrary.h; sourceTree = "<group>"; };
+		B0D7E6081B57B0C6007E9BE8 /* TFAssetsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFAssetsLibrary.m; sourceTree = "<group>"; };
+		B0FEB5551B5FA56F00DD72B2 /* TFCameraRecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCameraRecordProgressView.h; sourceTree = "<group>"; };
+		B0FEB5561B5FA56F00DD72B2 /* TFCameraRecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCameraRecordProgressView.m; sourceTree = "<group>"; };
+		BBFC1A06168C0E9815A1DD78 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0D7E5A31B5756F8007E9BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1A1EBCE08852B1900BA0D5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D7E5BC1B5756F9007E9BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D7E5C71B5756F9007E9BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F5988F4A7D3F54CE7F332C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				877D05BE948EF70D34CE511F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B02522501B5E2F7F004A1BE3 /* VisionSource */ = {
+			isa = PBXGroup;
+			children = (
+				B02522511B5E2F7F004A1BE3 /* PBJGLProgram.h */,
+				B02522521B5E2F7F004A1BE3 /* PBJGLProgram.m */,
+				B02522531B5E2F7F004A1BE3 /* PBJMediaWriter.h */,
+				B02522541B5E2F7F004A1BE3 /* PBJMediaWriter.m */,
+				B02522551B5E2F7F004A1BE3 /* PBJVision.h */,
+				B02522561B5E2F7F004A1BE3 /* PBJVision.m */,
+				B02522571B5E2F7F004A1BE3 /* PBJVisionUtilities.h */,
+				B02522581B5E2F7F004A1BE3 /* PBJVisionUtilities.m */,
+				B02522591B5E2F7F004A1BE3 /* Shaders */,
+			);
+			path = VisionSource;
+			sourceTree = "<group>";
+		};
+		B02522591B5E2F7F004A1BE3 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				B025225A1B5E2F7F004A1BE3 /* Shader.fsh */,
+				B025225B1B5E2F7F004A1BE3 /* Shader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		B0D7E59D1B5756F8007E9BE8 = {
+			isa = PBXGroup;
+			children = (
+				B0D7E5A81B5756F8007E9BE8 /* TFCamera */,
+				B0D7E5C21B5756F9007E9BE8 /* TFCameraTests */,
+				B0D7E5CD1B5756F9007E9BE8 /* TFCameraUITests */,
+				B0D7E5A71B5756F8007E9BE8 /* Products */,
+				C2754C15D166F3FE80163D3B /* Pods */,
+				2F5988F4A7D3F54CE7F332C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0D7E5A71B5756F8007E9BE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7E5A61B5756F8007E9BE8 /* TFCamera.app */,
+				B0D7E5BF1B5756F9007E9BE8 /* TFCameraTests.xctest */,
+				B0D7E5CA1B5756F9007E9BE8 /* TFCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0D7E5A81B5756F8007E9BE8 /* TFCamera */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7E5DE1B579895007E9BE8 /* TFCamera */,
+				B0D7E5AC1B5756F8007E9BE8 /* AppDelegate.h */,
+				B0D7E5AD1B5756F8007E9BE8 /* AppDelegate.m */,
+				B0D7E5AF1B5756F8007E9BE8 /* ViewController.h */,
+				B0D7E5B01B5756F8007E9BE8 /* ViewController.m */,
+				B0D7E5B21B5756F8007E9BE8 /* Main.storyboard */,
+				B0D7E5B51B5756F8007E9BE8 /* Assets.xcassets */,
+				B0D7E5B71B5756F8007E9BE8 /* LaunchScreen.storyboard */,
+				B0D7E5BA1B5756F8007E9BE8 /* Info.plist */,
+				B0D7E5A91B5756F8007E9BE8 /* Supporting Files */,
+			);
+			path = TFCamera;
+			sourceTree = "<group>";
+		};
+		B0D7E5A91B5756F8007E9BE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7E5AA1B5756F8007E9BE8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0D7E5C21B5756F9007E9BE8 /* TFCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7E5C31B5756F9007E9BE8 /* TFCameraTests.m */,
+				B0D7E5C51B5756F9007E9BE8 /* Info.plist */,
+			);
+			path = TFCameraTests;
+			sourceTree = "<group>";
+		};
+		B0D7E5CD1B5756F9007E9BE8 /* TFCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7E5CE1B5756F9007E9BE8 /* TFCameraUITests.m */,
+				B0D7E5D01B5756F9007E9BE8 /* Info.plist */,
+			);
+			path = TFCameraUITests;
+			sourceTree = "<group>";
+		};
+		B0D7E5DE1B579895007E9BE8 /* TFCamera */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7E5DF1B579895007E9BE8 /* Model */,
+				B0D7E5E01B579895007E9BE8 /* Resource */,
+				B0D7E5E11B579895007E9BE8 /* Tools */,
+				B0D7E5E21B579895007E9BE8 /* ViewController */,
+				B0D7E5E31B579895007E9BE8 /* Views */,
+				B0A221541B69CA710029127D /* TFCameraProtocol.h */,
+			);
+			path = TFCamera;
+			sourceTree = "<group>";
+		};
+		B0D7E5DF1B579895007E9BE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B02522501B5E2F7F004A1BE3 /* VisionSource */,
+				B0D7E5E41B579991007E9BE8 /* TFAssetImageFile.h */,
+				B0D7E5E51B579991007E9BE8 /* TFAssetImageFile.m */,
+				B098D8C31B6776DD00839499 /* TFMediaFileModel.h */,
+				B098D8C41B6776DD00839499 /* TFMediaFileModel.m */,
+				B0A221701B6B4DEB0029127D /* PBJVision+TFCamera.h */,
+				B0A221711B6B4DEB0029127D /* PBJVision+TFCamera.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0D7E5E01B579895007E9BE8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7E5E71B579A32007E9BE8 /* TFCamera.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B0D7E5E11B579895007E9BE8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B04831391B5890C80007F46E /* UIImage+CameraFilters.h */,
+				B048313A1B5890C80007F46E /* UIImage+CameraFilters.m */,
+				B0D7E6041B57B076007E9BE8 /* TFAlbum.h */,
+				B0D7E6051B57B076007E9BE8 /* TFAlbum.m */,
+				B0D7E6071B57B0C6007E9BE8 /* TFAssetsLibrary.h */,
+				B0D7E6081B57B0C6007E9BE8 /* TFAssetsLibrary.m */,
+				B0D7E5E91B579E73007E9BE8 /* TFCamera.h */,
+				B0D7E5EA1B579E73007E9BE8 /* TFCamera.m */,
+				B0D7E5EF1B57A0BD007E9BE8 /* TFCameraColor.h */,
+				B0D7E5F01B57A0BD007E9BE8 /* TFCameraColor.m */,
+				B0D7E5F51B57A755007E9BE8 /* TFCameraFlash.h */,
+				B0D7E5F61B57A755007E9BE8 /* TFCameraFlash.m */,
+				B0D7E5FB1B57A905007E9BE8 /* TFCameraFocus.h */,
+				B0D7E5FC1B57A905007E9BE8 /* TFCameraFocus.m */,
+				B0D7E5FE1B57A9DD007E9BE8 /* TFCameraShot.h */,
+				B0D7E5FF1B57A9DD007E9BE8 /* TFCameraShot.m */,
+				B0D7E6011B57AEE0007E9BE8 /* TFCameraToggle.h */,
+				B0D7E6021B57AEE0007E9BE8 /* TFCameraToggle.m */,
+				B0C205871B5C9FD100010D0E /* UIButton+TFCameraButton.h */,
+				B0C205881B5C9FD100010D0E /* UIButton+TFCameraButton.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B0D7E5E21B579895007E9BE8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B048312D1B588BE00007F46E /* TFCameraViewController.h */,
+				B048312E1B588BE00007F46E /* TFCameraViewController.m */,
+				B04831301B588C120007F46E /* TFCameraNavigationController.h */,
+				B04831311B588C120007F46E /* TFCameraNavigationController.m */,
+				B04831331B588ED60007F46E /* TFPhotoViewController.h */,
+				B04831341B588ED60007F46E /* TFPhotoViewController.m */,
+				B098D8C01B6776AE00839499 /* TFMediaViewController.h */,
+				B098D8C11B6776AE00839499 /* TFMediaViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B0D7E5E31B579895007E9BE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0618F731B589B75000E6C6A /* TFPhotoViewController.xib */,
+				B0D7E5EC1B579FE8007E9BE8 /* TFCameraGridView.h */,
+				B0D7E5ED1B579FE8007E9BE8 /* TFCameraGridView.m */,
+				B0D7E5F21B57A6E8007E9BE8 /* TFCameraFocusView.h */,
+				B0D7E5F31B57A6E8007E9BE8 /* TFCameraFocusView.m */,
+				B0D7E5F81B57A7CA007E9BE8 /* TFTintedButton.h */,
+				B0D7E5F91B57A7CA007E9BE8 /* TFTintedButton.m */,
+				B04831241B5884E50007F46E /* TFCameraSlideView.h */,
+				B04831251B5884E50007F46E /* TFCameraSlideView.m */,
+				B04831271B58858B0007F46E /* TFCameraSlideUpView.h */,
+				B04831281B58858B0007F46E /* TFCameraSlideUpView.m */,
+				B048312A1B58859C0007F46E /* TFCameraSlideDownView.h */,
+				B048312B1B58859C0007F46E /* TFCameraSlideDownView.m */,
+				B04831361B58905B0007F46E /* TFCameraFilterView.h */,
+				B04831371B58905B0007F46E /* TFCameraFilterView.m */,
+				B0FEB5551B5FA56F00DD72B2 /* TFCameraRecordProgressView.h */,
+				B0FEB5561B5FA56F00DD72B2 /* TFCameraRecordProgressView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2754C15D166F3FE80163D3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B4CBA1FC3987D448F83F867 /* Pods.debug.xcconfig */,
+				BBFC1A06168C0E9815A1DD78 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0D7E5A51B5756F8007E9BE8 /* TFCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D7E5D31B5756F9007E9BE8 /* Build configuration list for PBXNativeTarget "TFCamera" */;
+			buildPhases = (
+				13CA93C8388A0BDBDB315031 /* Check Pods Manifest.lock */,
+				B0D7E5A21B5756F8007E9BE8 /* Sources */,
+				B0D7E5A31B5756F8007E9BE8 /* Frameworks */,
+				B0D7E5A41B5756F8007E9BE8 /* Resources */,
+				5968EBB2363E5ED5B6D9402B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFCamera;
+			productName = TFCamera;
+			productReference = B0D7E5A61B5756F8007E9BE8 /* TFCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0D7E5BE1B5756F9007E9BE8 /* TFCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D7E5D61B5756F9007E9BE8 /* Build configuration list for PBXNativeTarget "TFCameraTests" */;
+			buildPhases = (
+				B0D7E5BB1B5756F9007E9BE8 /* Sources */,
+				B0D7E5BC1B5756F9007E9BE8 /* Frameworks */,
+				B0D7E5BD1B5756F9007E9BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0D7E5C11B5756F9007E9BE8 /* PBXTargetDependency */,
+			);
+			name = TFCameraTests;
+			productName = TFCameraTests;
+			productReference = B0D7E5BF1B5756F9007E9BE8 /* TFCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0D7E5C91B5756F9007E9BE8 /* TFCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D7E5D91B5756F9007E9BE8 /* Build configuration list for PBXNativeTarget "TFCameraUITests" */;
+			buildPhases = (
+				B0D7E5C61B5756F9007E9BE8 /* Sources */,
+				B0D7E5C71B5756F9007E9BE8 /* Frameworks */,
+				B0D7E5C81B5756F9007E9BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0D7E5CC1B5756F9007E9BE8 /* PBXTargetDependency */,
+			);
+			name = TFCameraUITests;
+			productName = TFCameraUITests;
+			productReference = B0D7E5CA1B5756F9007E9BE8 /* TFCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0D7E59E1B5756F8007E9BE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Melvin;
+				TargetAttributes = {
+					B0D7E5A51B5756F8007E9BE8 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = N7HPU2D4KX;
+					};
+					B0D7E5BE1B5756F9007E9BE8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B0D7E5A51B5756F8007E9BE8;
+					};
+					B0D7E5C91B5756F9007E9BE8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B0D7E5A51B5756F8007E9BE8;
+					};
+				};
+			};
+			buildConfigurationList = B0D7E5A11B5756F8007E9BE8 /* Build configuration list for PBXProject "TFCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0D7E59D1B5756F8007E9BE8;
+			productRefGroup = B0D7E5A71B5756F8007E9BE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0D7E5A51B5756F8007E9BE8 /* TFCamera */,
+				B0D7E5BE1B5756F9007E9BE8 /* TFCameraTests */,
+				B0D7E5C91B5756F9007E9BE8 /* TFCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0D7E5A41B5756F8007E9BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02522601B5E2F7F004A1BE3 /* Shader.fsh in Resources */,
+				B02522611B5E2F7F004A1BE3 /* Shader.vsh in Resources */,
+				B0618F761B589B75000E6C6A /* TFPhotoViewController.xib in Resources */,
+				B0D7E5E81B579A32007E9BE8 /* TFCamera.xcassets in Resources */,
+				B0D7E5B91B5756F8007E9BE8 /* LaunchScreen.storyboard in Resources */,
+				B0D7E5B61B5756F8007E9BE8 /* Assets.xcassets in Resources */,
+				B0D7E5B41B5756F8007E9BE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D7E5BD1B5756F9007E9BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D7E5C81B5756F9007E9BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13CA93C8388A0BDBDB315031 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5968EBB2363E5ED5B6D9402B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0D7E5A21B5756F8007E9BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B025225C1B5E2F7F004A1BE3 /* PBJGLProgram.m in Sources */,
+				B0D7E5F11B57A0BD007E9BE8 /* TFCameraColor.m in Sources */,
+				B04831381B58905B0007F46E /* TFCameraFilterView.m in Sources */,
+				B098D8C51B6776DD00839499 /* TFMediaFileModel.m in Sources */,
+				B0D7E5B11B5756F8007E9BE8 /* ViewController.m in Sources */,
+				B0D7E6091B57B0C6007E9BE8 /* TFAssetsLibrary.m in Sources */,
+				B0D7E5AE1B5756F8007E9BE8 /* AppDelegate.m in Sources */,
+				B0D7E6061B57B076007E9BE8 /* TFAlbum.m in Sources */,
+				B0D7E5FA1B57A7CA007E9BE8 /* TFTintedButton.m in Sources */,
+				B04831351B588ED60007F46E /* TFPhotoViewController.m in Sources */,
+				B0D7E5EB1B579E73007E9BE8 /* TFCamera.m in Sources */,
+				B0D7E5FD1B57A905007E9BE8 /* TFCameraFocus.m in Sources */,
+				B0D7E6001B57A9DD007E9BE8 /* TFCameraShot.m in Sources */,
+				B0D7E5F41B57A6E8007E9BE8 /* TFCameraFocusView.m in Sources */,
+				B025225E1B5E2F7F004A1BE3 /* PBJVision.m in Sources */,
+				B0D7E5F71B57A755007E9BE8 /* TFCameraFlash.m in Sources */,
+				B048312F1B588BE00007F46E /* TFCameraViewController.m in Sources */,
+				B0A221721B6B4DEB0029127D /* PBJVision+TFCamera.m in Sources */,
+				B04831321B588C120007F46E /* TFCameraNavigationController.m in Sources */,
+				B048312C1B58859C0007F46E /* TFCameraSlideDownView.m in Sources */,
+				B0C205891B5C9FD100010D0E /* UIButton+TFCameraButton.m in Sources */,
+				B098D8C21B6776AE00839499 /* TFMediaViewController.m in Sources */,
+				B04831291B58858B0007F46E /* TFCameraSlideUpView.m in Sources */,
+				B0D7E5E61B579991007E9BE8 /* TFAssetImageFile.m in Sources */,
+				B0D7E6031B57AEE0007E9BE8 /* TFCameraToggle.m in Sources */,
+				B04831261B5884E50007F46E /* TFCameraSlideView.m in Sources */,
+				B025225D1B5E2F7F004A1BE3 /* PBJMediaWriter.m in Sources */,
+				B048313B1B5890C80007F46E /* UIImage+CameraFilters.m in Sources */,
+				B0D7E5AB1B5756F8007E9BE8 /* main.m in Sources */,
+				B0FEB5571B5FA56F00DD72B2 /* TFCameraRecordProgressView.m in Sources */,
+				B0D7E5EE1B579FE8007E9BE8 /* TFCameraGridView.m in Sources */,
+				B025225F1B5E2F7F004A1BE3 /* PBJVisionUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D7E5BB1B5756F9007E9BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D7E5C41B5756F9007E9BE8 /* TFCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D7E5C61B5756F9007E9BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D7E5CF1B5756F9007E9BE8 /* TFCameraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0D7E5C11B5756F9007E9BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0D7E5A51B5756F8007E9BE8 /* TFCamera */;
+			targetProxy = B0D7E5C01B5756F9007E9BE8 /* PBXContainerItemProxy */;
+		};
+		B0D7E5CC1B5756F9007E9BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0D7E5A51B5756F8007E9BE8 /* TFCamera */;
+			targetProxy = B0D7E5CB1B5756F9007E9BE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0D7E5B21B5756F8007E9BE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D7E5B31B5756F8007E9BE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0D7E5B71B5756F8007E9BE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D7E5B81B5756F8007E9BE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0D7E5D11B5756F9007E9BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0D7E5D21B5756F9007E9BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0D7E5D41B5756F9007E9BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4CBA1FC3987D448F83F867 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TFCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.timeface.base.TFCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B0D7E5D51B5756F9007E9BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFC1A06168C0E9815A1DD78 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TFCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.timeface.base.TFCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B0D7E5D71B5756F9007E9BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.timeface.base.TFCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFCamera.app/TFCamera";
+			};
+			name = Debug;
+		};
+		B0D7E5D81B5756F9007E9BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.timeface.base.TFCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFCamera.app/TFCamera";
+			};
+			name = Release;
+		};
+		B0D7E5DA1B5756F9007E9BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.timeface.base.TFCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFCamera;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B0D7E5DB1B5756F9007E9BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.timeface.base.TFCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFCamera;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0D7E5A11B5756F8007E9BE8 /* Build configuration list for PBXProject "TFCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D7E5D11B5756F9007E9BE8 /* Debug */,
+				B0D7E5D21B5756F9007E9BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D7E5D31B5756F9007E9BE8 /* Build configuration list for PBXNativeTarget "TFCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D7E5D41B5756F9007E9BE8 /* Debug */,
+				B0D7E5D51B5756F9007E9BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D7E5D61B5756F9007E9BE8 /* Build configuration list for PBXNativeTarget "TFCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D7E5D71B5756F9007E9BE8 /* Debug */,
+				B0D7E5D81B5756F9007E9BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D7E5D91B5756F9007E9BE8 /* Build configuration list for PBXNativeTarget "TFCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D7E5DA1B5756F9007E9BE8 /* Debug */,
+				B0D7E5DB1B5756F9007E9BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0D7E59E1B5756F8007E9BE8 /* Project object */;
+}

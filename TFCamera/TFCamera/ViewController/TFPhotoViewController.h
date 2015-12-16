@@ -11,12 +11,6 @@
 
 @interface TFPhotoViewController : UIViewController
 
-+ (instancetype)new __attribute__
-((unavailable("[+new] is not allowed, use [+newWithDelegate:photo:]")));
-
-- (instancetype) init __attribute__
-((unavailable("[-init] is not allowed, use [+newWithDelegate:photo:]")));
-
 + (instancetype)newWithDelegate:(id<TFCameraDelegate>)delegate photo:(UIImage *)photo;
 
 - (void)setAlbumPhoto:(BOOL)isAlbumPhoto;

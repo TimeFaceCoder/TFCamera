@@ -11,7 +11,5 @@ Pod::Spec.new do |s|
   s.source_files  = "TFCamera/TFCamera/**/*.{h,m,c}"
   s.requires_arc = true
   s.dependency 'pop'
-  s.dependency 'GPUImage'
   s.dependency 'Masonry'
-  s.dependency 'AsyncDisplayKit'
 end

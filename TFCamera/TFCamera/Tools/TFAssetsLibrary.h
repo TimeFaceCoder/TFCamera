@@ -6,8 +6,8 @@
 //  Copyright © 2015 Melvin. All rights reserved.
 //
 
-#import <AssetsLibrary/AssetsLibrary.h>;
-#import <UIKit/UIKit.h>;
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <UIKit/UIKit.h>
 #import <Photos/Photos.h>
 #import "TFAssetImageFile.h"
 

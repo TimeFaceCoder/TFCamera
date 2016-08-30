@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.4"
   s.summary      = "时光流影iOS相机框架"
   s.homepage     = "https://github.com/TimeFaceCoder/TFCamera"
-  s.license      = "Copyright (C) 2015 TimeFace, Inc.  All rights reserved."
+  s.license = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Melvin" => "yangmin@timeface.cn" }
   s.social_media_url   = "http://www.timeface.cn"
   s.ios.deployment_target = "7.0"
